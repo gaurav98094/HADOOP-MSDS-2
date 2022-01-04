@@ -6,6 +6,11 @@
 2. Java JDK : Programming Language
 3. Hadoop : Tool Package for BDA
 
+## Download Links
+- https://ubuntu.com/download/desktop
+- https://www.oracle.com/java/technologies/downloads/
+- https://hadoop.apache.org/releases.html
+
 ## Some Terminologies
 1. NameNode : keeps the directory tree of all files in the file system, and tracks where across the cluster the file data is kept
 2. Secondary NN :takes checkpoints of the file system metadata present on namenode
