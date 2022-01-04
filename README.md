@@ -29,7 +29,7 @@ $ start yarn.sh
 ```
 
 ## Invention of Benzene
-<Ping src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40jahnavimandadapu%2Fthe-dream-that-revealed-the-structure-of-benzene-3c7e270c90c&psig=AOvVaw1NjZ70zCWxOxFMB7mQU4hL&ust=1641409159774000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCxg-HjmPUCFQAAAAAdAAAAABAD">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40jahnavimandadapu%2Fthe-dream-that-revealed-the-structure-of-benzene-3c7e270c90c&psig=AOvVaw1NjZ70zCWxOxFMB7mQU4hL&ust=1641409159774000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCxg-HjmPUCFQAAAAAdAAAAABAD">
 
 ## Six Things that should run
 - Name Node
