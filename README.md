@@ -20,15 +20,15 @@
 6. Map : Map takes a set of data and converts it into another set of data, where individual elements are broken down into keys.
 7. Reduce : combines all outputs of small tasks and gives final output.
 8. Node Manneger : monitoring their resource usage and reporting the same to the ResourceManager.
-9. Resource Manager : allocates resources like memory, cpu etc.
+9. Resource Manager : allocates resources like memory, cpu etc. It manages the use of resources across the cluster
 
 ## Start Hadoop
 ```bash
-$ start dfs.sh
-$ start yarn.sh
+$ start-dfs.sh
+$ start-yarn.sh
 ```
 
-## Invention of Benzene
+## Invention of Benzene (see dreams 😂😂)
 <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40jahnavimandadapu%2Fthe-dream-that-revealed-the-structure-of-benzene-3c7e270c90c&psig=AOvVaw1NjZ70zCWxOxFMB7mQU4hL&ust=1641409159774000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCxg-HjmPUCFQAAAAAdAAAAABAD">
 
 ## Six Things that should run
@@ -54,3 +54,4 @@ It has 1 Name Node, 1 Secondary Name Node, Data Node.
 - YARN : Yet Another Resourse Negotiater
 
 # Date : 5th Jan 2021
+
