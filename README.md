@@ -4,7 +4,7 @@
 ## Items to Install
 1. Ubuntu : Operating System (Preferably Dual Boot if you use windows)
 2. Java JDK : Programming Language
-3. Hadoop : Tool Package for BDA
+3. Hadoop : Tool Package for OLAP
 
 ## Download Links
 - https://ubuntu.com/download/desktop
