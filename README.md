@@ -96,3 +96,23 @@ Dont just copy paste, use mvdir
 ```
 
 
+
+
+# Installation Guide
+
+## Dual Booting System
+### Youtube Video 
+<center>
+<iframe width="420" height="315" src="https://youtu.be/ag8apC9cCOA"></iframe>
+
+<a href="https://towardsdatascience.com/how-to-dual-boot-windows-10-and-linux-ubuntu-20-04-lts-in-a-few-hassle-free-steps-f0e465c3aafd">Page Link</a>
+</center>
+
+### Downloadable Links
+- https://ubuntu.com/download/desktop
+- https://rufus.ie/en/
+
+
+
+
+
