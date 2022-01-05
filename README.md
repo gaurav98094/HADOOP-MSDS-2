@@ -28,7 +28,7 @@ $ start-dfs.sh
 $ start-yarn.sh
 ```
 
-## Invention of Benzene (see dreams 😂😂)
+## Invention of Benzene Structure (dreams come true)
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ouroboros-benzene.svg/200px-Ouroboros-benzene.svg.png">
 
 ## Six Things that should run
@@ -95,9 +95,7 @@ Dont just copy paste, use mvdir
 ```
 
 
-
-
-# Installation Guide
+# Guide
 
 ## Dual Booting System
 ### Youtube Video 
