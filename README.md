@@ -1,4 +1,4 @@
-# Date : 4th Jan 2021
+# Date : 4th Jan 2022
 
 
 ## Items to Install
@@ -53,7 +53,7 @@ It has 1 Name Node, 1 Secondary Name Node, Data Node.
 - HDFS : Hadoop Distributed File System
 - YARN : Yet Another Resourse Negotiater
 
-# Date : 5th Jan 2021
+# Date : 5th Jan 2022
 
 
 ## Installation Guide
