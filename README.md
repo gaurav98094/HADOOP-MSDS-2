@@ -59,34 +59,40 @@ It has 1 Name Node, 1 Secondary Name Node, Data Node.
 
 ## Installation Guide
 ### Step 1 : Update sudo
-```
+```bash
 $ sudo apt-get-update
 ```
 ### Step 2 : Install JDK
-```
+```bash
 $ sudo apt-get install default-jdk
 $ java -version
 ```
 
 ### Step 3 : Hadoop
-```
+```bash
 $ sudo addgroup hadoop
 $ sudo adduser --ingroup hadoop hduser
 ```
 
 ### Step 4 : SSH
-```
+```bash
 $ sudo apt-get install ssh
 $ which ssh
 $ which sshd
 ```
 
 
-### Step 5 : Login to SSHD
-```
+### Step 5 : Login to Hadoop User
+```bash
 $ su hduser
-$ ssh-keygen -t rsa -P ""
+$ sudo adduser hduser sudo
+$ sudo ssh-keygen -t rsa -P ""
 ```
 
+### Step 6 : Hadoop Installation
+```
+Download and Unzip the folder , rename it as hadoop and put it in usr/local/
+Dont just copy paste, use mvdir
+```
 
 
