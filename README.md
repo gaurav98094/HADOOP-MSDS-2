@@ -102,7 +102,7 @@ Dont just copy paste, use mvdir
 ## Dual Booting System
 ### Youtube Video 
 <center>
-<a href="https://youtu.be/ag8apC9cCOA">Youtube Video</a><br>
+<a href="https://youtu.be/xnisuFk-cDg">Youtube Video for Dual Boot</a><br>
 <a href="https://towardsdatascience.com/how-to-dual-boot-windows-10-and-linux-ubuntu-20-04-lts-in-a-few-hassle-free-steps-f0e465c3aafd">Page Link</a>
 <br>
 </center>
@@ -113,6 +113,8 @@ Dont just copy paste, use mvdir
 - https://ubuntu.com/download/desktop
 - https://rufus.ie/en/
 
+## Installing Hadoop
+To be updated ...
 
 
 
