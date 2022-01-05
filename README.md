@@ -103,7 +103,7 @@ Dont just copy paste, use mvdir
 ## Dual Booting System
 ### Youtube Video 
 <center>
-<iframe width="420" height="315" src="https://youtu.be/ag8apC9cCOA"></iframe>
+<iframe width="1094" height="614" src="https://www.youtube.com/embed/ag8apC9cCOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a href="https://towardsdatascience.com/how-to-dual-boot-windows-10-and-linux-ubuntu-20-04-lts-in-a-few-hassle-free-steps-f0e465c3aafd">Page Link</a>
 </center>
