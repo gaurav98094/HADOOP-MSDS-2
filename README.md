@@ -55,7 +55,6 @@ It has 1 Name Node, 1 Secondary Name Node, Data Node.
 
 # Date : 5th Jan 2021
 
-# Date : 4th Jan 2021
 
 ## Installation Guide
 ### Step 1 : Update sudo
