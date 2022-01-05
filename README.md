@@ -29,7 +29,7 @@ $ start-yarn.sh
 ```
 
 ## Invention of Benzene (see dreams 😂😂)
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40jahnavimandadapu%2Fthe-dream-that-revealed-the-structure-of-benzene-3c7e270c90c&psig=AOvVaw1NjZ70zCWxOxFMB7mQU4hL&ust=1641409159774000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCxg-HjmPUCFQAAAAAdAAAAABAD">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ouroboros-benzene.svg/200px-Ouroboros-benzene.svg.png">
 
 ## Six Things that should run
 - Name Node
@@ -54,4 +54,39 @@ It has 1 Name Node, 1 Secondary Name Node, Data Node.
 - YARN : Yet Another Resourse Negotiater
 
 # Date : 5th Jan 2021
+
+# Date : 4th Jan 2021
+
+## Installation Guide
+### Step 1 : Update sudo
+```
+$ sudo apt-get-update
+```
+### Step 2 : Install JDK
+```
+$ sudo apt-get install default-jdk
+$ java -version
+```
+
+### Step 3 : Hadoop
+```
+$ sudo addgroup hadoop
+$ sudo adduser --ingroup hadoop hduser
+```
+
+### Step 4 : SSH
+```
+$ sudo apt-get install ssh
+$ which ssh
+$ which sshd
+```
+
+
+### Step 5 : Login to SSHD
+```
+$ su hduser
+$ ssh-keygen -t rsa -P ""
+```
+
+
 
