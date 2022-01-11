@@ -112,8 +112,9 @@ Dont just copy paste, use mvdir
 - https://rufus.ie/en/
 
 ## Installing Hadoop
-To be updated ...
+<a href="https://phoenixnap.com/kb/install-hadoop-ubuntu">Refer this link</a>
 
 
+# Date : 11th Jan 2022
 
 
