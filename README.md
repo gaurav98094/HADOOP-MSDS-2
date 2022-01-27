@@ -1,16 +1,4 @@
-# Date : 4th Jan 2022
-
-
-## Items to Install
-1. Ubuntu : Operating System (Preferably Dual Boot if you use windows)
-2. Java JDK : Programming Language
-3. Hadoop : Tool Package for OLAP
-
-## Download Links
-- https://ubuntu.com/download/desktop
-- https://www.oracle.com/java/technologies/downloads/
-- https://hadoop.apache.org/releases.html
-
+# HADOOP - MDS NOTES
 ## Some Terminologies
 1. NameNode : keeps the directory tree of all files in the file system, and tracks where across the cluster the file data is kept
 2. Secondary NN :takes checkpoints of the file system metadata present on namenode
@@ -52,8 +40,6 @@ It has 1 Name Node, 1 Secondary Name Node, Data Node.
 ### Some Extra Terminologies
 - HDFS : Hadoop Distributed File System
 - YARN : Yet Another Resourse Negotiater
-
-# Date : 5th Jan 2022
 
 
 ## Installation Guide
@@ -115,7 +101,6 @@ Dont just copy paste, use mvdir
 <a href="https://phoenixnap.com/kb/install-hadoop-ubuntu">Refer this link</a>
 
 
-# Date : 11th Jan 2022
 
 ## Frontend, Backend & MiddleWare
 - Front end relates to the Software’s presentation layer, essentially the user interface (UI) and User Experience (UX). This is basically what elements of the software are visible by the end user and what their interactions with the system will be. 
@@ -163,4 +148,48 @@ When you are dealing with a large amount of unstructured data speed is an import
 </center>
 <br>
 - The major advantage of MapReduce is that it is easy to scale data processing over multiple computing nodes. Under the MapReduce model, the data processing primitives are called mappers and reducers. 
+
+
+
+
+
+# Phases of the MapReduce model
+
+MapReduce model has three major and one optional phase:
+1. Mapper
+It is the first phase of MapReduce programming and contains the coding logic of the mapper function.
+The conditional logic is applied to the ‘n’ number of data blocks spread across various data nodes.
+Mapper function accepts key-value pairs as input as (k, v), where the key represents the offset address of each record and the value represents the entire record content.
+The output of the Mapper phase will also be in the key-value format as (k’, v’).
+2. Shuffle and Sort
+The output of various mappers (k’, v’), then goes into Shuffle and Sort phase.
+All the duplicate values are removed, and different values are grouped together based on similar keys.
+The output of the Shuffle and Sort phase will be key-value pairs again as key and array of values (k, v[]).
+3. Reducer
+The output of the Shuffle and Sort phase (k, v[]) will be the input of the Reducer phase.
+In this phase reducer function’s logic is executed and all the values are aggregated against their corresponding keys.
+Reducer consolidates outputs of various mappers and computes the final job output.
+The final output is then written into a single file in an output directory of HDFS.
+4. Combiner
+It is an optional phase in the MapReduce model.
+The combiner phase is used to optimize the performance of MapReduce jobs.
+In this phase, various outputs of the mappers are locally reduced at the node level.
+For example, if different mapper outputs (k, v) coming from a single node contains duplicates, then they get combined i.e. locally reduced as a single (k, v[]) output.
+This phase makes the Shuffle and Sort phase work even quicker thereby enabling additional performance in MapReduce jobs.
+
+
+
+
+
+
+# Running MapReduce Job - UBUNTU
+```
+$ ../bin/hadoop com.sun.tools.javac.Main WordCount.java
+$ jar cf peterswc.jar WordCount*.class
+$ hadoop fs -put wordcount.txt /input_dir/
+$ hadoop jar peterswc.jar WordCount /input_dir/wordcount.txt /output/
+$ hadoop fs -cat /output/part-r-00000
+```
+
+
 
