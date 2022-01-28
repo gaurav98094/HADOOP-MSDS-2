@@ -184,6 +184,12 @@ This phase makes the Shuffle and Sort phase work even quicker thereby enabling a
 
 # Running MapReduce Job - UBUNTU
 ```
+$ cd ~/hadoop-3.2.2/sbin/
+$ ./start-dfs.sh
+$ ./start-yarn.sh
+$ jps
+
+$ hadoop fs -put <source> <destination>
 $ ../bin/hadoop com.sun.tools.javac.Main WordCount.java
 $ jar cf peterswc.jar WordCount*.class
 $ hadoop fs -put wordcount.txt /input_dir/
@@ -193,3 +199,32 @@ $ hadoop fs -cat /output/part-r-00000
 
 
 
+# Hadoop Core Components
+Hadoop Ecosystem is a platform or a suite which provides various services to solve the big data problems. It includes Apache projects and various commercial tools and solutions. There are four major elements of Hadoop i.e. HDFS, MapReduce, YARN.
+
+
+### HDFS 
+
+HDFS is the primary or major component of Hadoop ecosystem and is responsible for storing large data sets of structured or unstructured data across various nodes and thereby maintaining the metadata in the form of log files.
+- HDFS consists of two core components i.e. 
+1. Name node
+2. Data Node
+3. Secondary Name Node
+
+### Name Node [ master ]
+Name Node is the prime node which contains metadata (data about data) requiring comparatively fewer resources than the data nodes that stores the actual data. These data nodes are commodity hardware in the distributed environment. Undoubtedly, making Hadoop cost effective.
+
+It maintains and manages the blocks that are present in datanodes.
+- Metadata in Memory : metatdata is info abt data.
+- Types of meta Data - list of files, blocks, creation time, replication file etc.
+- A Transaction Log : records of file creations, file deletions etc.
+
+### Data Node [ slaves ]
+Actual data of the file is stored in Datanodes in Hadoop cluster. Datanodes store or access the blocks of the file for the client application after Namenode provides the list of Datanodes where blocks have to be stored or from where the blocks have to be read.
+- It's a block server.
+- facilates the pipelining of the data.
+
+### Secondary Name Node
+The process followed by Secondary NameNode to periodically merge the fsimage and the edits log files is as follows-
+- Secondary NameNode gets the latest FsImage and EditLog files from the primary NameNode.
+- Secondary NameNode applies each transaction from EditLog file to FsImage to create a new merged FsImage file.
