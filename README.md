@@ -228,3 +228,5 @@ Actual data of the file is stored in Datanodes in Hadoop cluster. Datanodes stor
 The process followed by Secondary NameNode to periodically merge the fsimage and the edits log files is as follows-
 - Secondary NameNode gets the latest FsImage and EditLog files from the primary NameNode.
 - Secondary NameNode applies each transaction from EditLog file to FsImage to create a new merged FsImage file.
+
+
