@@ -20,7 +20,9 @@ public class Sort{
         @Override
         protected void map(Object key, Text value, Context context) throws IOException, InterruptedException {
             String line = value.toString();
-            data.set(Integer.parseInt(line));
+            String[] l = line.split("\\s+");
+
+            data.set(Integer.parseInt(l[1]));
             context.write(data, new IntWritable(1));
         }
     }
