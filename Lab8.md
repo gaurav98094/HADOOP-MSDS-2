@@ -38,7 +38,7 @@ $ hadoop fs -put sample /
 ```bash
 $ hadoop jar Sales.jar SingleMapperReducer /sample /output
 ```
-<img src="img/sales6.png">
+<img src="img/sales7.png">
 
 ### Output File
 ```bash
